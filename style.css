@@ -2,7 +2,7 @@ body {
     font-family: "Apple SD Gothic Neo", sans-serif;
     text-align: center;
     padding: 30px;
-    background: #ededed;
+    background: #fff8f0;
   }
   
   h1 {
@@ -37,5 +37,25 @@ body {
     font-weight: bold;
     color: #333;
     margin-top: 10px;
+  }
+  
+  .reward-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .reward-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .usage {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
   }
   
